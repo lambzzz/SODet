@@ -11,7 +11,9 @@
             "program": "./tools/train.py",
             "console": "integratedTerminal",
             "justMyCode": false,
-            "args": ["fibertrainconfig/multi_instance_oriented_rcnn.py",
+            "args": [
+                    // "fiberconfig/SetOriented_RPN/multi_instance_oriented_rcnn.py",
+                    "dotaconfig/FPNformer/fpnformer_DOTA.py",
                     // "--resume-from",
                     // "work_dirs/multi_instance_oriented_crowddet/epoch_60.pth"
                 ] 
@@ -32,9 +34,9 @@
 //             "program": "./tools/test.py",
 //             "console": "integratedTerminal",
 //             "justMyCode": false,
-//             "args": ["fibertrainconfig/oriented_crowddet.py",
-//                     "work_dirs/oriented_crowddet/epoch_60.pth",
-//                     "--eval", "mAP"] 
+//             "args": ["dotaconfig/RoResNet/roresnet_rcnn_DOTA.py",
+//                     "work_dirs/roresnet_rcnn_DOTA/epoch_12.pth",
+//                     "--format-only",] 
 //         }
 //     ]
 // }
